@@ -1,7 +1,7 @@
-FROM centos:7.4.1708
+FROM centos:7.7.1908
 MAINTAINER ccondit@randomcoder.com
 
-ENV MAVEN_VERSION=3.5.4
+ENV MAVEN_VERSION=3.6.3
 ENV JAVA_HOME=/opt/java/jdk11
 ENV MAVEN_HOME=/opt/apache-maven-${MAVEN_VERSION}
 ENV PATH=/opt/java/jdk11/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
