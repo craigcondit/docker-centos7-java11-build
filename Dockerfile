@@ -1,4 +1,4 @@
-FROM centos:7.6.1810
+FROM centos:7.5.1804
 MAINTAINER ccondit@randomcoder.com
 
 ENV MAVEN_VERSION=3.6.3
